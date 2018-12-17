@@ -57,8 +57,8 @@ class Solution:
         if matrix == []:
             return []
         start = 0               # 每次循环时起始点
-        rows = len(matrix)   # 列数
-        columns = len(matrix[0])   # 行数
+        rows = len(matrix)   # 行数
+        columns = len(matrix[0])   # 列数
 
         while columns > 2 * start and rows > 2 * start:
             endX = columns - 1 - start
